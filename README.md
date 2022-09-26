@@ -1,3 +1,17 @@
+## How to install
+
+วิธีการติดตั้ง Project Backend laravel :
+
+- git clone https://github.com/ReneSchmitt018/laravel-api-6214421018
+- composer update
+- สร้าง Database ไหม่ขึ้นมา หรือ ดาวโหลด SQL Database :: 
+- ลบ .env.example เหลือแค่ .env และเปลี่ยนชื่อ database เป็นชื่อ Database หลักนั้นใช้งาน
+- php artisan migrate
+- php artisan db:seed
+- php artisan serv
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
